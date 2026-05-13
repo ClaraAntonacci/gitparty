@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Criar Evento</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+</head>
+<body>
+
+    <a href="index.html" class="voltar-btn">
+        <i class="fa-solid fa-xmark"></i>
+    </a>
+
+    <header>
+
+        <h1>Evently</h1>
+
+    </header>
+
+    <form class="form-evento" id="form-evento">
+
+        <h2>Criar Novo Evento</h2>
+
+        <input
+        type="text"
+        name="titulo"
+        placeholder="Título do Evento"
+        required
+        >
+
+        <textarea
+        name="descricao"
+        placeholder="Descrição do evento"
+        required
+        ></textarea>
+
+        <input
+        type="datetime-local"
+        name="data_evento"
+        required
+        >
+
+        <input
+        type="text"
+        name="local"
+        placeholder="Local"
+        required
+        >
+
+        <input
+        type="number"
+        name="capacidade_maxima"
+        placeholder="Capacidade máxima"
+        required
+        >
+
+        <select name="status">
+
+            <option value="ATIVO">
+                ATIVO
+            </option>
+
+            <option value="ENCERRADO">
+                ENCERRADO
+            </option>
+
+            <option value="CANCELADO">
+                CANCELADO
+            </option>
+
+        </select>
+
+        <input
+        type="file"
+        id="imagem"
+        accept="image/jpeg"
+        >
+
+        <button type="submit">
+            Salvar Evento
+        </button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
