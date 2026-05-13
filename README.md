@@ -110,3 +110,4 @@ O sistema é voltado para estudantes, organizadores de eventos, empresas e usuá
 
 ## Página atualizar evento
 
+![alt text](<gitparty front/assets/atualizar.png>)
