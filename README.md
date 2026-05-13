@@ -106,7 +106,7 @@ O sistema é voltado para estudantes, organizadores de eventos, empresas e usuá
 
 ## Página Inicial
 
-![Home](gitparty front/assets/home.png)
+![alt text](<gitparty front/assets/home.png>)
 
 ## Página atualizar evento
 
